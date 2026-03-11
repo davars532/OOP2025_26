@@ -1,0 +1,32 @@
+# JetBrains / Rider / CLion
+/.idea/
+/shelf/
+/workspace.xml
+
+# Editor HTTP client
+/httpRequests/
+
+# Datasources
+/dataSources/
+/dataSources.local.xml
+
+# C++ build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore binaries without extension (common on Linux/Mac)
+*
+
+# But allow source files
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.txt
+!*.md
+!.gitignore
